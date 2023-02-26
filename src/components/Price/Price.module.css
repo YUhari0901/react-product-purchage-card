@@ -1,0 +1,51 @@
+.priceContainer {
+  box-sizing: border-box;
+  border-bottom: 1px solid #dee0e3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.sale {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #6b90dc;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.priceOrigin {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  text-decoration-line: line-through;
+  color: #999999;
+  margin-left: 140px;
+  padding-right: 5px;
+}
+
+.priceReduced {
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  color: #333333;
+}
+.a11y {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+}
