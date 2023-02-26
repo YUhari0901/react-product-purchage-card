@@ -1,4 +1,6 @@
 .purchageContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .addPurchageButton {
@@ -7,10 +9,19 @@
   width: 328px;
   height: 48px;
   border-radius: 6px;
+  border: #ffffff;
+}
+
+.text {
+  display: inline-block;
+  width: 52px;
+  height: 14px;
+  margin-left: 5px;
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
   letter-spacing: -0.005em;
-  border: #ffffff;
+  position: relative;
+  bottom: 8px;
 }
