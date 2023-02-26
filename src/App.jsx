@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/global.css';
+import style from './styles/global.module.css';
 import Counter from './components/Counter/Counter';
 import Delivery from './components/Delivery/Delivery';
 import ProductPrice from './components/Price/ProductPrice';
@@ -7,17 +7,20 @@ import ProductPriceTotal from './components/Price/ProductPriceTotal';
 import PurchageButton from './components/PurchageButton/PurchageButton';
 import PurchageView from './components/PurchageView/PurchageView';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>상품구매 페이지</h1>
-      <p>Georgy, Hari et Loi :)</p>
-      <PurchageView />
-      <Counter />
-      <ProductPrice />
-      <Delivery />
-      <ProductPriceTotal />
-      <PurchageButton />
-    </div>
+    <>
+      <h1 className={style.a11y}>상품구매 페이지 </h1>
+      <main>
+        <PurchageView />
+        <ProductPrice />
+        <Counter />
+        <Delivery />
+        <ProductPriceTotal />
+        <PurchageButton />
+      </main>
+    </>
   );
 }
+
+export default App;
