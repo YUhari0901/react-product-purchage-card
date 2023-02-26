@@ -13,24 +13,26 @@ const Counter = ({ min = 1, count: initialValue = 1, max = 10 }) => {
   };
 
   return (
-    <div className={CounterStyle.buttonContainer}>
-      <button
-        className={CounterStyle.plusButton}
-        type="button"
-        aria-label="카운트 1 증가"
-        onClick={onIncrease}
-      >
-        +
-      </button>
-      <span className={CounterStyle.result}>{count}</span>
-      <button
-        className={CounterStyle.minusButton}
-        type="button"
-        aria-label="카운트 1 감소"
-        onClick={onDecrease}
-      >
-        -
-      </button>
+    <div className={CounterStyle.counterContainer}>
+      <div className={CounterStyle.buttonContainer}>
+        <button
+          className={CounterStyle.minusButton}
+          type="button"
+          aria-label="카운트 1 감소"
+          onClick={onDecrease}
+        >
+          -
+        </button>
+        <span className={CounterStyle.result}>{count}</span>
+        <button
+          className={CounterStyle.plusButton}
+          type="button"
+          aria-label="카운트 1 증가"
+          onClick={onIncrease}
+        >
+          +
+        </button>
+      </div>
     </div>
   );
 };

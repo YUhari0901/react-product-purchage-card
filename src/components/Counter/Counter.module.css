@@ -1,3 +1,7 @@
+.counterContainer {
+  padding: 16px;
+}
+
 .buttonContainer {
   display: flex;
   width: 110px;

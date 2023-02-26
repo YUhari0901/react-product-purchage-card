@@ -1,6 +1,5 @@
 .deliveryContaioner {
   padding: 16px;
-  border-bottom: 1px solid #dee0e3;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-size: 14px;
@@ -29,5 +28,7 @@
 .eachCharge {
   font-weight: 400;
   color: #999999;
-  display: ;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dee0e3;
 }
