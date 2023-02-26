@@ -1,0 +1,25 @@
+.deliveryContaioner {
+  margin: 16px;
+  border-bottom: 1px solid #dee0e3;
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+}
+
+.deliveryMethod {
+  font-weight: 400;
+  padding-right: 6px;
+  border-right: 1px solid #dee0e3;
+}
+.deliveryPrice {
+  font-weight: 700;
+  padding-left: 6px;
+}
+
+.deliveryPay {
+  font-weight: 700;
+  color: #6b90dc;
+  padding-left: 2px;
+}

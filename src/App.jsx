@@ -14,8 +14,8 @@ function App() {
       <main>
         <PurchageView />
         <ProductPrice />
-        <Counter />
         <Delivery />
+        <Counter />
         <ProductPriceTotal />
         <PurchageButton />
       </main>
