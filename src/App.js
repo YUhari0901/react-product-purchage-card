@@ -10,7 +10,7 @@ import PurchageView from './components/PurchageView/PurchageView';
 export default function App() {
   return (
     <div>
-      <h1>GHL Wordl!</h1>
+      <h1>상품구매 페이지</h1>
       <p>Georgy, Hari et Loi :)</p>
       <PurchageView />
       <Counter />
