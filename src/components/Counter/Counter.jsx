@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import CounterStyle from './counter.module.css';
+import CounterStyle from './Counter.module';
 
-const Counter = ({ initialValue }) => {
+const Counter = ({ min = 1, count: initialValue = 1, max = 10 }) => {
   const [count, setCount] = useState(initialValue);
 
   const onIncrease = () => {
@@ -13,12 +13,30 @@ const Counter = ({ initialValue }) => {
   };
 
   return (
-    <div>
-      <h2>{count} 수량조절 버튼</h2>
-      <button onClick={onIncrease}>+</button>
-      <button onClick={onDecrease}>-</button>
+    <div className={CounterStyle.buttonContainer}>
+      <button
+        className={CounterStyle.plusButton}
+        type="button"
+        aria-label="카운트 1 증가"
+        onClick={onIncrease}
+      >
+        +
+      </button>
+      <span className={CounterStyle.result}>{count}</span>
+      <button
+        className={CounterStyle.minusButton}
+        type="button"
+        aria-label="카운트 1 감소"
+        onClick={onDecrease}
+      >
+        -
+      </button>
     </div>
   );
+};
+
+Counter.defaulProps = {
+  initialValue: 0,
 };
 
 export default Counter;
