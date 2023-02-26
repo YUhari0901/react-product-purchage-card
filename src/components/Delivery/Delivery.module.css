@@ -1,11 +1,13 @@
 .deliveryContaioner {
-  margin: 16px;
+  padding: 16px;
   border-bottom: 1px solid #dee0e3;
   font-family: 'Spoqa Han Sans Neo';
   font-style: normal;
   font-size: 14px;
   line-height: 100%;
   letter-spacing: -0.005em;
+  gap: 8px;
+  height: 37px;
 }
 
 .deliveryMethod {
@@ -22,4 +24,10 @@
   font-weight: 700;
   color: #6b90dc;
   padding-left: 2px;
+}
+
+.eachCharge {
+  font-weight: 400;
+  color: #999999;
+  display: ;
 }

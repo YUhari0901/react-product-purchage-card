@@ -18,7 +18,9 @@ const Delivery = () => {
         {produitDelivery.DeliveryPrice + '원'}
       </span>
       <span className={styles.deliveryPay}>{produitDelivery.DeliveryPay}</span>
-      <p>{produitDelivery.EachCharge + '개마다 부과'}</p>
+      <p className={styles.eachCharge}>
+        {produitDelivery.EachCharge + '개마다 부과'}
+      </p>
     </div>
   );
 };
