@@ -5,12 +5,9 @@ import IconNaver from '../../assets/productImage.png';
 const PurchageButton = () => {
   return (
     <div calssName={styles.purchageContainer}>
-      <button
-        className={styles.addPurchageButton}
-        type="button"
-        onClick={onDecrease}
-      >
+      <button className={styles.addPurchageButton} type="button">
         <img src="../../assets/productImage.png" alt="네이버 아이콘" />
+        구매하기
       </button>
     </div>
   );

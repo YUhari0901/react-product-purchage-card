@@ -1,9 +1,16 @@
 .purchageContainer {
-  background-color: blueviolet;
-  
 }
 
 .addPurchageButton {
-  background-color: blue;
-  width: 100px;
+  margin-left: 16px;
+  background-color: #03c75a;
+  width: 328px;
+  height: 48px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.005em;
+  border: #ffffff;
 }
